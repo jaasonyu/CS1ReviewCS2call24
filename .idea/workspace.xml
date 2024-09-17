@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc016c7f-a394-4c21-b484-7c34201eb1c7" name="Changes" comment="work in class through specialOfTheDay, countCups">
+    <list default="true" id="dc016c7f-a394-4c21-b484-7c34201eb1c7" name="Changes" comment="worked in class through specialOfTheDay, countCups. tried CoffeDrink but to no avail">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoffeeDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Drink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaBeansAndBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBeansAndBytes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726147417766</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="worked in class through specialOfTheDay, countCups. tried CoffeDrink but to no avail">
+      <created>1726575638700</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726575638701</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,14 +120,15 @@
     <MESSAGE value="First commit?" />
     <MESSAGE value="Add CoffeeDrink class" />
     <MESSAGE value="work in class through specialOfTheDay, countCups" />
-    <option name="LAST_COMMIT_MESSAGE" value="work in class through specialOfTheDay, countCups" />
+    <MESSAGE value="worked in class through specialOfTheDay, countCups. tried CoffeDrink but to no avail" />
+    <option name="LAST_COMMIT_MESSAGE" value="worked in class through specialOfTheDay, countCups. tried CoffeDrink but to no avail" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaBeansAndBytes.java</url>
-          <line>41</line>
+          <line>40</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

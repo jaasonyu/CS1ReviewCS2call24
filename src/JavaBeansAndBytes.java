@@ -12,8 +12,7 @@ public class JavaBeansAndBytes {
     String name;
     boolean isOpen;
     int yearFounded;
-    String firstName;
-    String lastName;
+
 
     public static void main(String[] args) {
         // Create a new CoffeeShop instance to run everything.
@@ -50,17 +49,13 @@ public class JavaBeansAndBytes {
         // TODO
         // Create two CoffeeDrink objects
 
-        const CoffeeDrink = new Object();
-
-        const CoffeeDrink = {
-                firstName: 'latte',
-                lastName: 'testLastName'
-        }
-        System.out.println(firstName);
+        Drink order1 = new Drink(9,"ice water", true);
+        Drink order2 = new Drink(10, "green tea", false);
 
         // TODO
         // Print out the order details
-
+        order1.printInfo();
+        order2.printInfo();
 
     }
 
@@ -98,7 +93,7 @@ public class JavaBeansAndBytes {
         for (int c = 2; c <= 11; c = c+3){
             System.out.print(c + ", ");
         }
-
+        System.out.println();
         // Print 8 to 0
         for (int c = 8; c >= 0; c--){
             System.out.print(c + "\n");
@@ -110,7 +105,20 @@ public class JavaBeansAndBytes {
         // TODO
         // Make this method generate a random decimal between 0 and 1
         // and print one of four drink recommendations based on its value.
-
+        double r = Math.random();
+        System.out.println("The barista recommends ");
+        if(r < 0.25){
+            System.out.print("cappuccino");
+        }
+        else if (r < .5){
+            System.out.print("green tea");
+        }
+        else if(r > 0.75) {
+            System.out.print("ice water");
+        }
+        else {
+            System.out.print("cold brew");
+        }
     }
 }
 
