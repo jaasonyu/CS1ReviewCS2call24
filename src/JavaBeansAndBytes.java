@@ -12,6 +12,8 @@ public class JavaBeansAndBytes {
     String name;
     boolean isOpen;
     int yearFounded;
+    String firstName;
+    String lastName;
 
     public static void main(String[] args) {
         // Create a new CoffeeShop instance to run everything.
@@ -47,6 +49,14 @@ public class JavaBeansAndBytes {
 
         // TODO
         // Create two CoffeeDrink objects
+
+        const CoffeeDrink = new Object();
+
+        const CoffeeDrink = {
+                firstName: 'latte',
+                lastName: 'testLastName'
+        }
+        System.out.println(firstName);
 
         // TODO
         // Print out the order details
