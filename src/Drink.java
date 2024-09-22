@@ -15,7 +15,20 @@ class Drink {
         this.numberOfCups = numberOfCups;
         this.drinkType = drinkType;
         this.hasWhippedCream = hasWhippedCream;
+    }
 
+    //another Drink constructor
+    public Drink(){
+        drinkType = "coffee";
+        numberOfCups = 1;
+        hasWhippedCream = false;
+    }
+
+    //Drink constructor that takes in a number of cups parameter
+    //but has "coffee" and false as defaults for other variables
+    public Drink(int numberOfCups){
+        drinkType = "matcha";
+        hasWhippedCream = true;
     }
 
     // Method to print information about the CoffeeDrink
@@ -24,7 +37,7 @@ class Drink {
         // TODO
         // Make this method print order details.
         // Include information stored in each variable.
-        System.out.print("You ordered " + numberOfCups + ", a " + drinkType);
+        System.out.print("You ordered " + numberOfCups + " cups of " + drinkType);
         if (hasWhippedCream == true){
             System.out.println(" with whipped cream.");
         }
