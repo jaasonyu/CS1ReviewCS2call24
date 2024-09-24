@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dc016c7f-a394-4c21-b484-7c34201eb1c7" name="Changes" comment="added single parameter numberOfCups to the Drink method! However, there seems to be a weird mishap where the numberOfCups digit is printed before the line, and I don't know how to get rid of it.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaBeansAndBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBeansAndBytes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727033972363</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added single parameter numberOfCups to the Drink method! However, there seems to be a weird mishap where the numberOfCups digit is printed before the line, and I don't know how to get rid of it.">
+      <created>1727037359566</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727037359566</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -66,10 +66,11 @@ public class JavaBeansAndBytes {
         // TODO
         // Make this method generate a random integer discount (0-30%)
         // and print the result.
-        int discount = (int)(Math.random()*31);
-        System.out.println("The discount is " + discount + "%");
-
-
+        int r = (int) (Math.random() * 31);
+        while (r < 26) {
+            r = (int) (Math.random() * 31);
+            System.out.println("The discount is " + r + "%!");
+        }
     }
 
     // Method with a parameter for the special of the day
