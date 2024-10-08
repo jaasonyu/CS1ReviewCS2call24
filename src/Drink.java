@@ -2,9 +2,9 @@
 
 class Drink {
 
-    int numberOfCups; //the way this is different from parameter numberOfCups is in scope
-    String drinkType;
-    boolean hasWhippedCream; //can be used to create parameters
+    private int numberOfCups; //the way this is different from parameter numberOfCups is in scope
+    private String drinkType;
+    private boolean hasWhippedCream; //can be used to create parameters
 
     // Constructor for CoffeeDrink class
     public Drink(int numberOfCups, String drinkType, boolean hasWhippedCream) {
@@ -44,5 +44,28 @@ class Drink {
         else{
             System.out.println(" without whipped cream.");
         }
+    }
+    //goal: make numberOfCups visible (but not changeable) from other classes
+    //in other words, a "getter" method
+    public double getNumberOfCups(){
+        return numberOfCups;
+    }
+    //goal: make # cups changeable from other classes
+    //"setter" method
+    public void setNumberOfCups(int n){
+        numberOfCups = n;
+    }
+    public String getDrinkType(){
+        return drinkType;
+    }
+    public void setDrinkType(String n){
+        drinkType = n;
+    }
+    public boolean getHasWhippedCream(){
+        return hasWhippedCream();
+    }
+
+    public void setHasWhippedCream(boolean n){
+        return hasWhippedCream();
     }
 }

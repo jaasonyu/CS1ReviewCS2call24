@@ -38,13 +38,15 @@ public class JavaBeansAndBytes {
         yearFounded = 2007;
         System.out.println("We were founded in " + yearFounded + ".");
         // Calling methods
-        randomDiscount();
+        //int random = randomDiscount();
+        System.out.println("PRINTING RANDOM DISCOUNT: " + randomDiscount());
+
         // TODO
         // Add parameter to specialOfTheDay (drink of your choice)
 
         specialOfTheDay("hot chocolate");
         countCups();
-        baristasChoice();
+        System.out.println("The barista recommends: " + baristasChoice());
 
         // TODO
         // Create two CoffeeDrink objects
@@ -58,11 +60,22 @@ public class JavaBeansAndBytes {
         order1.printInfo();
         order2.printInfo();
         order3.printInfo();
+        System.out.println(order1.getNumberOfCups());
+        order1.setNumberOfCups(4);
+        System.out.println(order1.getNumberOfCups());
+        System.out.println(order1.getDrinkType());
+        order1.setDrinkType("matcha latte");
+        System.out.println(order1.getDrinkType());
+        System.out.println(sum(7, 5));
 
     }
 
+    public int sum(int a, int b) {
+        int c = a+b;
+        return c;
+    }
     // Method to generate a random discount
-    public void randomDiscount() {
+    public int randomDiscount() {
         // TODO
         // Make this method generate a random integer discount (0-30%)
         // and print the result.
@@ -71,7 +84,9 @@ public class JavaBeansAndBytes {
             r = (int) (Math.random() * 31);
             System.out.println("The discount is " + r + "%!");
         }
+        return r;
     }
+
 
     // Method with a parameter for the special of the day
     public void specialOfTheDay(String special) {
@@ -104,23 +119,22 @@ public class JavaBeansAndBytes {
     }
 
     // Method to recommend a coffee based on a random number
-    public void baristasChoice() {
+    public String baristasChoice() {
         // TODO
         // Make this method generate a random decimal between 0 and 1
         // and print one of four drink recommendations based on its value.
         double r = Math.random();
-        System.out.print("The barista recommends ");
         if(r < 0.25){
-            System.out.print("cappuccino");
+            return "cappuccino";
         }
         else if (r < .5){
-            System.out.print("green tea");
+            return "green tea";
         }
         else if(r > 0.75) {
-            System.out.print("ice water");
+            return "ice water";
         }
         else {
-            System.out.print("cold brew");
+            return "cold brew";
         }
     }
 }
