@@ -129,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727195128781</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added single parameter numberOfCups to the Drink method! However, there seems to be a weird mishap where the numberOfCups digit is printed before the line, and I don't know how to get rid of it.">
+      <created>1728402340786</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728402340786</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

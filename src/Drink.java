@@ -2,7 +2,7 @@
 
 class Drink {
 
-    private int numberOfCups; //the way this is different from parameter numberOfCups is in scope
+    public static int numberOfCups; //the way this is different from parameter numberOfCups is in scope
     private String drinkType;
     private boolean hasWhippedCream; //can be used to create parameters
 
@@ -62,10 +62,10 @@ class Drink {
         drinkType = n;
     }
     public boolean getHasWhippedCream(){
-        return hasWhippedCream();
+        return hasWhippedCream;
     }
 
-    public void setHasWhippedCream(boolean n){
-        return hasWhippedCream();
+    public void setHasWhippedCream(boolean b){
+        hasWhippedCream = b;
     }
 }

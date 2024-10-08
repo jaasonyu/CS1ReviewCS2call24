@@ -55,11 +55,12 @@ public class JavaBeansAndBytes {
         Drink order2 = new Drink();
         Drink order3 = new Drink(8);
 
+        System.out.println(Drink.numberOfCups);
+
         // TODO
         // Print out the order details
         order1.printInfo();
         order2.printInfo();
-        order3.printInfo();
         System.out.println(order1.getNumberOfCups());
         order1.setNumberOfCups(4);
         System.out.println(order1.getNumberOfCups());
@@ -67,6 +68,8 @@ public class JavaBeansAndBytes {
         order1.setDrinkType("matcha latte");
         System.out.println(order1.getDrinkType());
         System.out.println(sum(7, 5));
+        System.out.println(order1.getHasWhippedCream());
+        order1.setHasWhippedCream(false);
 
     }
 
